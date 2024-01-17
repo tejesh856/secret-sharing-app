@@ -5,7 +5,7 @@ export default function Login({ showModal, handleCloseModal, handleSignupClick }
     var navigate = useNavigate();
     async function handlesubmit(e) {
         e.preventDefault();
-        const response = await fetch('http://localhost:8000/api/loginuser',
+        const response = await fetch('https://secret-sharing-api.vercel.app/api/loginuser',
             {
                 method: 'POST',
                 headers: {
