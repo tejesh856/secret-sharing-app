@@ -3,7 +3,7 @@ export default function Signup({ showModal, handleCloseModal, handleLoginClick }
     const [credentials, setcredentials] = useState({ username: '', password: '', email: '' });
     const handlesubmit = async (e) => {
         e.preventDefault();
-        const response = await fetch('http://localhost:8000/api/createuser',
+        const response = await fetch('https://secret-sharing-api.vercel.app/api/createuser',
             {
                 method: 'POST',
                 headers: {
