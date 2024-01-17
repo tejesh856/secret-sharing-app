@@ -12,7 +12,7 @@ export default function Posting({ isLoggedIn }) {
   useEffect(() => {
     // Fetch all messages when the component mounts
     const fetchMessages = async () => {
-      const response = await fetch('http://localhost:8000/api/getmessages');
+      const response = await fetch('https://secret-sharing-api.vercel.app/api/getmessages');
       const json = await response.json();
 
       if (json.success) {
@@ -33,7 +33,7 @@ export default function Posting({ isLoggedIn }) {
     }
 
     // Make a POST request to your backend endpoint to save the secret
-    const response = await fetch('http://localhost:8000/api/postsecret', {
+    const response = await fetch('https://secret-sharing-api.vercel.app/api/postsecret', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -47,7 +47,7 @@ export default function Posting({ isLoggedIn }) {
     if (json.success) {
       alert('Secret posted successfully');
       setSecret({ message: '' });
-      const updatedResponse = await fetch('http://localhost:8000/api/getmessages');
+      const updatedResponse = await fetch('https://secret-sharing-api.vercel.app/api/getmessages');
       const updatedJson = await updatedResponse.json();
 
       if (updatedJson.success) {
