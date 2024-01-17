@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(17, 17, 17);
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    
+}
+.text {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 10px;
+    max-width:100%;
+    overflow: hidden; /* Hides any content that exceeds the dimensions of the card */
+    word-wrap: break-word; /* Allows long words to be broken and wrap onto the next line */
+    white-space: normal;
+  }
+
+.card-text {
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 5px;
+}
+.tcolor{
+    color: rgb(13, 13, 59);
+}
+textarea{
+    outline: none;
+    border-radius: 5px;
+    resize: none;
+    padding: 10px;
+}
+.wraps{
+    background-color: rgba(54, 52, 52, 0.753);
+}
+.wrapw{
+    height: 80vh;
+}
+.btn-2,.btn-1{
+    border:transparent;
+    outline: transparent;
+    color:rgb(13, 13, 59);
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+}
+.btn4{
+    color: white;
+    background-color:transparent;
+}
+.btn-2:hover,.btn-1:hover{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color:blue;
+    padding: 0;
+    margin: 0;
+    text-decoration: underline;
+}
+.btn-1:hover{
+    color:green;
+}
+
+@media screen and (max-width: 996px) {
+    .btn1,.btn2,.btn3{
+      border:none;
+      outline: none;
+      background-color: transparent;
+    }
+    .lit{
+        margin-bottom: 5px;
+    }
+    .btn1:hover{
+        color: green;
+        border:none;
+        outline: none;
+        background-color: transparent;
+    }
+    .btn2:hover{
+        color: blue;
+        border:none;
+        outline: none;
+        background-color: transparent;
+    }
+    .btn3:hover{
+        color: red;
+        border:none;
+        outline: none;
+        background-color: transparent;
+    }
+  }
