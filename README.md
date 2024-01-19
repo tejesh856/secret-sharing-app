@@ -45,7 +45,7 @@ git clone https://github.com/tejesh856/secret-sharing-api.git
 cd path-of-frontend-project-repo
 ```
 
-<p>4. move the one terminal to backend project directory</p>
+<p>4. move the other terminal to backend project directory</p>
 
 ```
 cd path-of-backend-project-repo
