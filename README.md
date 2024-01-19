@@ -30,13 +30,13 @@ Here're some of the project's best features:
 <p>1. clone frontend repository</p>
 
 ```
-https://github.com/tejesh856/secret-sharing-app.git
+git clone https://github.com/tejesh856/secret-sharing-app.git
 ```
 
 <p>2. clone backend repository</p>
 
 ```
-https://github.com/tejesh856/secret-sharing-api.git
+git clone https://github.com/tejesh856/secret-sharing-api.git
 ```
 
 <p>3. move the one terminal to frontend project directory</p>
