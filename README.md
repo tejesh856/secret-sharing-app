@@ -33,31 +33,37 @@ Here're some of the project's best features:
 https://github.com/tejesh856/secret-sharing-app.git
 ```
 
-<p>2. clone backend server</p>
+<p>2. clone backend repository</p>
 
 ```
 https://github.com/tejesh856/secret-sharing-api.git
 ```
 
-<p>3. mover the terminal to project directory</p>
+<p>3. move the one terminal to frontend project directory</p>
 
 ```
-cd path-of-project-repo
+cd path-of-frontend-project-repo
 ```
 
-<p>4. install dependencies</p>
+<p>4. move the one terminal to backend project directory</p>
+
+```
+cd path-of-backend-project-repo
+```
+
+<p>5. install dependencies</p>
 
 ```
 npm install
 ```
 
-<p>5. run frontend server</p>
+<p>6. run frontend server</p>
 
 ```
 npm start
 ```
 
-<p>6. run backend server</p>
+<p>7. run backend server</p>
 
 ```
 npm start
